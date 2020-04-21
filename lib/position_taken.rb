@@ -4,11 +4,7 @@ board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def position_taken?(board, index)
-  if board[index] == " "
-    true
-  else
-    false
-  end
+  !board[index] == " "
 end
 
 puts position_taken?(board, index)
