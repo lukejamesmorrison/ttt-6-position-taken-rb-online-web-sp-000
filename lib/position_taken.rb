@@ -10,3 +10,5 @@ def position_taken?(board, index)
     false
   end
 end
+
+position_taken?(board, index);
